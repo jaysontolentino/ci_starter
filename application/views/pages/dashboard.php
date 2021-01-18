@@ -1,0 +1,9 @@
+<?= alert('success', 'signin_success') ?>
+
+<div class="jumbotron">
+
+	<h1>CI APP STARTER TEMPLATE</h1>
+
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum vero delectus ipsam temporibus voluptate iusto minima doloremque veniam provident consequuntur hic assumenda odit, consectetur eaque quidem obcaecati placeat, quo fugiat sunt nostrum, quia tempore! Iure consectetur neque in sed eveniet officia incidunt nisi, fugit, ipsa voluptatum voluptas? Assumenda inventore nesciunt tempore consectetur in pariatur quibusdam quia voluptatibus? Illo optio dolorem ipsam modi vitae libero laboriosam reprehenderit ea quod molestiae rem ipsum sed, suscipit veniam possimus aut molestias aperiam est atque! Pariatur, at vitae quis expedita illo et rem natus a, illum totam eos quasi accusantium veniam sunt odio. Harum qui eligendi quo laudantium aut vero sint nesciunt temporibus aperiam iusto pariatur necessitatibus exercitationem incidunt eius error, sapiente maiores impedit praesentium iure quod molestiae ipsa distinctio quis. Consectetur, iste, eius itaque ut provident aspernatur a voluptates culpa corrupti ipsa praesentium quam necessitatibus delectus sapiente voluptatibus? Eaque nulla tenetur dicta suscipit perspiciatis beatae nemo iure eligendi nam perferendis veritatis, cumque dolorem aliquid nihil provident excepturi consequuntur voluptates accusantium ducimus molestiae. Aliquid quidem at, veritatis officiis et debitis reprehenderit ad ipsa, aspernatur exercitationem error odit quia dignissimos facere unde aliquam iste facilis? Delectus odit natus, temporibus unde voluptatibus laborum deleniti minima eligendi hic.</p>
+
+</div>

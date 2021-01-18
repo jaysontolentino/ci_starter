@@ -1,26 +1,26 @@
-
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?=app_name()?></title>
 
-    <title><?= app_name(); ?></title>
+    <link rel="stylesheet" href="<?=base_url('assets/bootstrap/css/lumen.css')?>">
 
   </head>
 
-  <body>
+<body>
 
-    <div class="container">
-      
-      <!-- content-->
-      <?php include_once(APPPATH.$content_view); ?>
-      
-      
-    </div> 
-    <!-- /container -->
+  <?php if(authenticated()): ?>
+  <?php include_once APPPATH . 'views/partials/navbar.php';?>
+  <?php endif; ?>
 
-  
-  </body>
+  <div class="container mt-4">
+  <?php include_once APPPATH . $content_view;?>
+  </div>
+
+  <script src="<?=base_url('assets/bootstrap/js/jquery.min.js')?>"></script>
+  <script src="<?=base_url('assets/bootstrap/js/bootstrap.min.js')?>"></script>
+
+</body>
 </html>
